@@ -1,0 +1,17 @@
+[filter "lfs"]
+  clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[credential]
+	helper = osxkeychain
+[user]
+	name = TJ
+	email = thaddeusjiang@gmail.com
+[core]
+	excludesfile = /Users/jifajiang/.gitignore_global
+	ignorecase = false
+[push]
+	default = current
+[alias]
+  tree = log --graph --decorate --pretty=oneline --abbrev-commit
