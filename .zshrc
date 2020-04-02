@@ -78,6 +78,7 @@ plugins=(
   golang
   docker
   nvm
+  fzf
 )
 
 source $ZSH/oh-my-zsh.sh
