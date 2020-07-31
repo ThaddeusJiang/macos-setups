@@ -112,6 +112,9 @@ source $ZSH/oh-my-zsh.sh
 eval $(thefuck --alias love)
 export GOPATH=$HOME/.go
 
+export AWS_DEFAULT_REGION=ap-northeast-1
+export AWS_DEFAULT_OUTPUT=json                # 出力形式 (json|text|table)
+export AWS_PROFILE=default                    # プロファイル名
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/jiangjifa/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/jiangjifa/google-cloud-sdk/path.zsh.inc'; fi
