@@ -112,6 +112,7 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 eval $(thefuck --alias love)
 export GOPATH=$HOME/.go
+alias air="~/.go/bin/air"
 
 export AWS_DEFAULT_REGION=ap-northeast-1
 export AWS_DEFAULT_OUTPUT=json                # 出力形式 (json|text|table)
