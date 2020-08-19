@@ -14,4 +14,4 @@
 [push]
 	default = current
 [alias]
-  tree = log --graph --decorate --pretty=oneline --abbrev-commit
+	tree = log --all --graph --decorate --oneline --simplify-by-decoration
