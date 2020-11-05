@@ -80,6 +80,7 @@ plugins=(
   nvm
   fzf
 	gcloud
+	osx
 )
 
 source $ZSH/oh-my-zsh.sh
