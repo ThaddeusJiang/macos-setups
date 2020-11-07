@@ -114,6 +114,7 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 eval $(thefuck --alias love)
 export GOPATH=$HOME/.go
 alias air="~/.go/bin/air"
+alias rm="trash"
 
 export AWS_DEFAULT_REGION=ap-northeast-1
 export AWS_DEFAULT_OUTPUT=json                # 出力形式 (json|text|table)
