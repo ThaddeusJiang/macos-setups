@@ -125,3 +125,7 @@ if [ -f '/Users/jiangjifa/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/jiang
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/jiangjifa/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/jiangjifa/google-cloud-sdk/completion.zsh.inc'; fi
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/jiangjifa/.sdkman"
+[[ -s "/Users/jiangjifa/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/jiangjifa/.sdkman/bin/sdkman-init.sh"
