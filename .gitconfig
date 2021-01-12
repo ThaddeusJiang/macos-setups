@@ -15,3 +15,7 @@
 	default = current
 [alias]
 	tree = log --all --graph --decorate --oneline --simplify-by-decoration
+[init]
+	defaultBranch = main
+[pull]
+	ff = only
