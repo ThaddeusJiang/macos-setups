@@ -8,7 +8,7 @@ export ZSH="/Users/jiangjifa/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="zeit"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -71,10 +71,8 @@ ZSH_THEME="zeit"
 plugins=(
   thefuck
   git
-  zsh-autosuggestions
   gem
   bundler
-  elixir
   golang
   docker
   nvm
@@ -84,7 +82,6 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # User configuration
 
@@ -113,7 +110,6 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 eval $(thefuck --alias love)
 export GOPATH=$HOME/.go
-alias air="~/.go/bin/air"
 alias rm="trash"
 
 export AWS_DEFAULT_REGION=ap-northeast-1
@@ -129,3 +125,5 @@ if [ -f '/Users/jiangjifa/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/jiangjifa/.sdkman"
 [[ -s "/Users/jiangjifa/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/jiangjifa/.sdkman/bin/sdkman-init.sh"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
