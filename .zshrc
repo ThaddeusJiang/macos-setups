@@ -128,3 +128,7 @@ export SDKMAN_DIR="/Users/jiangjifa/.sdkman"
 [[ -s "/Users/jiangjifa/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/jiangjifa/.sdkman/bin/sdkman-init.sh"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
+
