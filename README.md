@@ -1,4 +1,4 @@
-# oh-my-dotfile
+# Macos Setups
 
 - oh my zsh
 - brew
