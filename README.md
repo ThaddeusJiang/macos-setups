@@ -9,8 +9,3 @@
 - tiddlywiki
 - vscode, firefox, iterm2
 - postgresql
-
-
-
-## GOPATH
-https://github.com/golang/go/wiki/SettingGOPATH#zsh

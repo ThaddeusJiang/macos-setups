@@ -110,7 +110,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 eval $(thefuck --alias love)
-export GOPATH=$HOME/.go
 alias rm="trash"
 
 export AWS_DEFAULT_REGION=ap-northeast-1
