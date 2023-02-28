@@ -2,7 +2,7 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/jiangjifa/.oh-my-zsh"
+export ZSH="/Users/tj/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -118,14 +118,14 @@ export AWS_DEFAULT_OUTPUT=json                # 出力形式 (json|text|table)
 export AWS_PROFILE=default                    # プロファイル名
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/jiangjifa/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/jiangjifa/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f '/Users/tj/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/tj/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/jiangjifa/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/jiangjifa/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f '/Users/tj/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/tj/google-cloud-sdk/completion.zsh.inc'; fi
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/Users/jiangjifa/.sdkman"
-[[ -s "/Users/jiangjifa/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/jiangjifa/.sdkman/bin/sdkman-init.sh"
+export SDKMAN_DIR="/Users/tj/.sdkman"
+[[ -s "/Users/tj/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/tj/.sdkman/bin/sdkman-init.sh"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
