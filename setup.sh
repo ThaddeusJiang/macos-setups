@@ -19,6 +19,7 @@ brew install fzf
 brew install babashka/brew/bbin
 brew install postgresql
 brew install flyctl
+brew install thefuck
 
 # Install Homebrew casks
 brew install --cask lastpass
