@@ -20,6 +20,7 @@ brew install babashka/brew/bbin
 brew install postgresql
 brew install flyctl
 brew install thefuck
+brew install MonitorControl
 
 # Install Homebrew casks
 brew install --cask lastpass
@@ -29,7 +30,6 @@ brew install --cask rectangle
 brew install --cask visual-studio-code
 brew install --cask fork
 brew install --cask eudic
-brew install --cask discord
 brew install --cask docker
 brew install --cask postman
 
