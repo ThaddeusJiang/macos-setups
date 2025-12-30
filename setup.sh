@@ -11,6 +11,7 @@ brew install trash
 brew install tree
 brew install fzf
 brew install thefuck
+brew install mole
 
 # Development tools
 brew install git
