@@ -18,8 +18,11 @@ brew install git
 brew install mise
 brew install gh
 brew install jq
+brew install codex
 
 # Install Homebrew casks
+brew install --cask cursor
+brew install --cask zed
 brew install --cask fork
 brew install --cask input-source-pro
 brew install --cask monitorcontrol
