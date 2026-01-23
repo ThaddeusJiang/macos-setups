@@ -23,6 +23,7 @@ brew install codex
 # Install Homebrew casks
 brew install --cask cursor
 brew install --cask zed
+brew install --cask ghostty
 brew install --cask fork
 brew install --cask input-source-pro
 brew install --cask monitorcontrol
