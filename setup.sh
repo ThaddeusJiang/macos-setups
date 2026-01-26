@@ -28,6 +28,7 @@ brew install --cask chatgpt-atlas
 brew install --cask orbstack
 brew install --cask cursor
 brew install --cask zed
+brew install --cask alma
 brew install --cask ghostty
 brew install --cask fork
 brew install --cask input-source-pro
