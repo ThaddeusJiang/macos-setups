@@ -22,6 +22,7 @@ brew install codex
 
 # Install Homebrew casks
 brew install --cask 1password
+brew install --cask raycast
 brew install --cask thebrowsercompany-dia
 brew install --cask chatgpt-atlas
 brew install --cask orbstack
