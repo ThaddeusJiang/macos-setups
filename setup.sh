@@ -21,6 +21,10 @@ brew install jq
 brew install codex
 
 # Install Homebrew casks
+brew install --cask 1password
+brew install --cask thebrowsercompany-dia
+brew install --cask chatgpt-atlas
+brew install --cask orbstack
 brew install --cask cursor
 brew install --cask zed
 brew install --cask ghostty
