@@ -19,31 +19,8 @@ fi
 # Install everything from Brewfile
 brew bundle --file ./Brewfile
 
-# Sync git config files
-GIT_BASE_URL="https://raw.githubusercontent.com/ThaddeusJiang/macos-setups/main"
-
-echo "→ Syncing git config files..."
-curl -fsSL "$GIT_BASE_URL/.gitconfig" -o "${HOME}/.gitconfig"
-curl -fsSL "$GIT_BASE_URL/.gitignore_global" -o "${HOME}/.gitignore_global"
-echo "✓ Git config synced"
-
 # Ensure vim is default editor
 ZSHRC="${HOME}/.zshrc"
-
-echo "→ Ensuring EDITOR/VISUAL are set to vim in .zshrc"
-
-touch "$ZSHRC"
-
-if ! grep -q '^export EDITOR=vim$' "$ZSHRC"; then
-  echo '' >> "$ZSHRC"
-  echo '# Default editor' >> "$ZSHRC"
-  echo 'export EDITOR=vim' >> "$ZSHRC"
-fi
-
-if ! grep -q '^export VISUAL=vim$' "$ZSHRC"; then
-  echo 'export VISUAL=vim' >> "$ZSHRC"
-fi
-
-# Reload zsh config
-echo "→ Reloading .zshrc"
+echo 'export EDITOR=vim' >> "$ZSHRC"
+echo 'export VISUAL=vim' >> "$ZSHRC"
 source "$ZSHRC"
