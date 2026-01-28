@@ -1,11 +1,16 @@
-# Macos Setups
+# ThaddeusJiang's macOS Setups
 
-- oh my zsh
-- brew
-- MacOS git
-- node.js, elixir, golang in .zshrc
-- thefuck
-- git cz
-- tiddlywiki
-- vscode, firefox, iterm2
-- postgresql
+```sh
+./setup.sh
+```
+
+```sh
+mise install
+```
+
+```sh
+cp -f .gitconfig ~/.gitconfig
+cp -f .gitignore_global ~/.gitignore_global
+
+
+```
