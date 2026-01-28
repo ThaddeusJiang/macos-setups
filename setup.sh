@@ -34,3 +34,4 @@ brew install --cask fork
 brew install --cask input-source-pro
 brew install --cask monitorcontrol
 brew install --cask productdevbook/tap/portkiller
+brew install --cask slack
