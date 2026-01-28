@@ -1,37 +1,20 @@
 #!/usr/bin/env zsh
+set -euo pipefail
 
-# Install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# Install oh-my-zsh (only if missing)
+if [ ! -d "${HOME}/.oh-my-zsh" ]; then
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+fi
 
-# Install Homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+# Install Homebrew (if missing)
+if ! command -v brew >/dev/null 2>&1; then
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
 
-# Install Homebrew packages
-brew install trash
-brew install tree
-brew install fzf
-brew install thefuck
-brew install mole
+# Ensure brew is on PATH (Apple Silicon default path)
+if [ -x /opt/homebrew/bin/brew ]; then
+  eval "$(/opt/homebrew/bin/brew shellenv)"
+fi
 
-# Development tools
-brew install git
-brew install mise
-brew install gh
-brew install jq
-brew install codex
-
-# Install Homebrew casks
-brew install --cask 1password
-brew install --cask raycast
-brew install --cask thebrowsercompany-dia
-brew install --cask chatgpt-atlas
-brew install --cask orbstack
-brew install --cask cursor
-brew install --cask zed
-brew install --cask alma
-brew install --cask ghostty
-brew install --cask fork
-brew install --cask input-source-pro
-brew install --cask monitorcontrol
-brew install --cask productdevbook/tap/portkiller
-brew install --cask slack
+# Install everything from Brewfile
+brew bundle --file ./Brewfile
