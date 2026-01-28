@@ -6,11 +6,12 @@
 [credential]
 	helper = osxkeychain
 [user]
-	name = TJ
+	name = ThaddeusJiang / 天海はら
 	email = thaddeusjiang@gmail.com
 [core]
 	excludesfile = /Users/jifajiang/.gitignore_global
 	ignorecase = false
+	editor = vim
 [push]
 	default = current
 [alias]
