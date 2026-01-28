@@ -1,5 +1,4 @@
 # Macos Setups
-
 - oh my zsh
 - brew
 - MacOS git
@@ -9,3 +8,5 @@
 - tiddlywiki
 - vscode, firefox, iterm2
 - postgresql
+- mise.toml for tool versions (elixir, erlang, go, node, npm, python, ruby)
+- Git config syncing & default editor set to vim
