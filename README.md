@@ -1,12 +1,16 @@
-# Macos Setups
-- oh my zsh
-- brew
-- MacOS git
-- node.js, elixir, golang in .zshrc
-- thefuck
-- git cz
-- tiddlywiki
-- vscode, firefox, iterm2
-- postgresql
-- mise.toml for tool versions (elixir, erlang, go, node, npm, python, ruby)
-- Git config syncing & default editor set to vim
+# ThaddeusJiang's macOS Setups
+
+```sh
+./setup.sh
+```
+
+```sh
+mise install
+```
+
+```sh
+cp -f .gitconfig ~/.gitconfig
+cp -f .gitignore_global ~/.gitignore_global
+
+
+```
