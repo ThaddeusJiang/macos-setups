@@ -1,8 +1,9 @@
 [tools]
 elixir = "1.19.2-otp-28"
 erlang = "28.1.1"
-go = "latest"
 node = "24"
 "npm:@antfu/ni" = "latest"
-python = "3.14"
 ruby = "3.3.0"
+bun = "latest"
+python = "latest"
+go = "latest"
