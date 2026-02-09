@@ -14,6 +14,7 @@ brew "mise"
 brew "gh"
 brew "jq"
 brew "codex"
+brew "ni"
 
 # Casks
 cask "1password"
