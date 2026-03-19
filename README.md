@@ -16,3 +16,9 @@ mise install
 cp -f .gitconfig ~/.gitconfig
 cp -f .gitignore_global ~/.gitignore_global
 ```
+
+## List
+
+- oh my zsh
+- brew
+- mise
