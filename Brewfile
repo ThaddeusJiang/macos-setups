@@ -13,7 +13,6 @@ brew "git"
 brew "mise"
 brew "gh"
 brew "jq"
-brew "codex"
 brew "ni"
 
 # Casks
@@ -30,3 +29,4 @@ cask "input-source-pro"
 cask "monitorcontrol"
 cask "productdevbook/tap/portkiller"
 cask "slack"
+brew "codex"
