@@ -1,6 +1,3 @@
-# Tap
- tap "productdevbook/tap"
-
 # Formulae
 brew "trash"
 brew "tree"
@@ -32,3 +29,4 @@ cask "slack"
 cask "codex-app"
 cask "cleanclip"
 cask "setapp"
+cask "eudic"
