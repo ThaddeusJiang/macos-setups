@@ -10,7 +10,6 @@ brew "git"
 brew "mise"
 brew "gh"
 brew "jq"
-brew "ni"
 
 # Casks
 cask "1password"
