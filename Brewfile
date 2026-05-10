@@ -4,6 +4,7 @@ brew "tree"
 brew "fzf"
 brew "thefuck"
 brew "mole"
+brew "just"
 
 # Development tools
 brew "git"
